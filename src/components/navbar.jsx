@@ -3,12 +3,13 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Logo from '../images/Sudharaka-logo.png'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home ', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'Projects', href: '#' },
+  { name: 'Contact', href: '#' },
 ]
 
 export default function Example() {
@@ -23,7 +24,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                src={Logo}
                 className="h-8 w-auto"
               />
             </a>
@@ -46,8 +47,13 @@ export default function Example() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
-              Log in <span aria-hidden="true">&rarr;</span>
+            <a
+              className="inline-flex items-center gap-2 rounded-lg border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:ring-3 focus:outline-hidden"
+              href="#"
+            >
+              <span className="text-sm font-medium"> Get Started </span>
+
+              
             </a>
           </div>
         </nav>
@@ -90,7 +96,7 @@ export default function Example() {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   >
-                    Log in
+                    <button>Get Started</button>
                   </a>
                 </div>
               </div>
