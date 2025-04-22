@@ -3,7 +3,7 @@ import React from 'react'
 function secondBanner() {
     return (
         <div>
-            <section className="bg-white lg:grid lg:h-screen lg:place-content-center m-0" >
+            <section className="bg-white py-20" >
                 <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
                     <div className="mx-auto  text-center">
                         <h1 className="text-4xl font-bold text-gray-900 ">
