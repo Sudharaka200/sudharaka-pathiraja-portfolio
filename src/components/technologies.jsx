@@ -12,19 +12,19 @@ import FireBase from '../images/🦆 icon _file type firebase_.png'
 function technologies() {
   return (
     <div>
-      <section className="bg-gray-50 py-20 borde">
+      <section className="bg-gray-100 py-20 ">
             <div className="container mx-auto text-center">
                 <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-12">Technologies</h2>
-                <div className="flex flex-wrap justify-center gap-6">
-                    <img src={Java} alt="Java"  />
-                    <img src={Python} alt="Python"  />
-                    <img src={JS} alt="JavaScript"  />
-                    <img src={ReactJs} alt="React"  />
-                    <img src={Tailwind} alt="Tailwind CSS"  />
-                    <img src={SpringBoot} alt="Spring Boot"  />
-                    <img src={Laravel} alt="Laravel"  />
-                    <img src={MySql} alt="MySQL"  />
-                    <img src={FireBase} alt="Firebase"  />
+                <div className="flex flex-wrap justify-center gap-10">
+                    <img src={Java} alt="Java"  className='w-100 h-100 h-100'/>
+                    <img src={Python} alt="Python" className='w-100 h-100' />
+                    <img src={JS} alt="JavaScript"  className='w-100 h-100'/>
+                    <img src={ReactJs} alt="React"  className='w-100 h-100'/>
+                    <img src={Tailwind} alt="Tailwind CSS"  className='w-100 h-100'/>
+                    <img src={SpringBoot} alt="Spring Boot"  className='w-100 h-100'/>
+                    <img src={Laravel} alt="Laravel"  className='w-100 h-100'/>
+                    <img src={MySql} alt="MySQL"  className='w-100 h-100'/>
+                    <img src={FireBase} alt="Firebase"  className='w-100 h-100'/>
                 </div>
             </div>
         </section>
