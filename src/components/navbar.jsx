@@ -6,10 +6,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../images/Sudharaka-logo.png'
 
 const navigation = [
-  { name: 'Home ', href: '#' },
+  { name: 'Home ', href: '/' },
   { name: 'About', href: '#' },
   { name: 'Projects', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Contact', href: '/contact' },
 ]
 
 export default function Example() {
@@ -49,7 +49,7 @@ export default function Example() {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
               className="inline-flex items-center gap-2 rounded-lg border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:ring-3 focus:outline-hidden"
-              href="#"
+              href="/contact"
             >
               <span className="text-sm font-medium"> Get Started </span>
 
@@ -93,7 +93,7 @@ export default function Example() {
                 </div>
                 <div className="py-6">
                   <a
-                    href="#"
+                    href="/contact"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   >
                     <button>Get Started</button>

@@ -14,7 +14,7 @@ function thirdBanner() {
                         <br />
                         <a
                                 className="inline-flex items-center gap-2 rounded-lg border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:ring-3 focus:outline-hidden"
-                                href="#"
+                                href="/contact"
                             >
                                 Get Started
                             </a>
