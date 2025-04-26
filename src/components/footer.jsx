@@ -54,10 +54,9 @@ function footer() {
 
                     <div class="sm:flex sm:items-center sm:justify-between">
                         <div class="flex flex-1 gap-4 hover:cursor-pointer dark:text-white">
-                            <p>© Copyright 2025 Sudharaka Pathiraja</p>
                         </div>
                     </div>
-                    <p class="font-sans p-8 text-start md:text-center md:text-lg md:p-4">© 2023 You Company Inc. All rights reserved.</p>
+                    <p class="flex flex-1 gap-4 hover:cursor-pointer dark:text-white dark:text-white">© 2025 Sudharaka Pathiraja. All rights reserved.</p>
                 </div>
             </footer>
         </div>
