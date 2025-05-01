@@ -13,7 +13,7 @@ function whatDo() {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 gap-1 mb-1 lg:grid-cols-2 ">
                         <div className="bg-gradient-to-r from-white to-[#F3F6FA] py-10 pl-2">
-                            <h2 className="text-xl font-semibold mb-2 text-blue-600">Custom Software Development</h2>
+                            <h2 className="text-xl font-semibold mb-2 text-blue-600 ">Custom Software Development</h2>
                             {/* <img src={DoImg} alt="Custom Software" className="mx-auto mb-4" /> */}
                             <p className="text-gray-700">
                             Design and build scalable applications tailored to business needs — from enterprise systems to mobile and web apps.
