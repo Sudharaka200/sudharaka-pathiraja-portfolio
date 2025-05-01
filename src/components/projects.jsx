@@ -6,7 +6,7 @@ function projects() {
             <section>
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
                     
-                    <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                    <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                         <li>
                             <a href="#" className="group block overflow-hidden">
                                 <img
@@ -45,7 +45,7 @@ function projects() {
                                     <p className="mt-2">
                                         <span className="sr-only"> Regular Price </span>
 
-                                        <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
+                                        <span className="tracking-wider text-gray-900"> £2400.00 GBP </span>
                                     </p>
                                 </div>
                             </a>
