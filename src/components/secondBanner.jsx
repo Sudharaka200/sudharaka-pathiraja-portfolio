@@ -17,7 +17,7 @@ function secondBanner() {
                             I'm dedicated to building intelligent, user-focused software solutions that solve real-world problems and drive innovation. From mobile apps to enterprise systems, I create technology that empowers businesses and transforms everyday experiences. Let’s build a smarter, more connected future—one line of code at a time.
                         </p>
                         <div className="mt-4 flex justify-center gap-4 sm:mt-6 ">
-                            <div className=" grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8  bg-blue-100 p-4 rounded-lg pl-20 pr-20">
+                            <div className=" grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8  bg-blue-50 p-4 rounded-lg pl-20 pr-20">
                                 <div className=" rounded">
                                     <p>Contact Me</p>
                                     <p>Discuss your needs.</p>

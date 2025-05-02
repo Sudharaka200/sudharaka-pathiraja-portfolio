@@ -6,7 +6,7 @@ import Project3 from '../images/project3.png'
 function projects() {
     return (
         <div>
-            <section>
+            <section id='projects'>
                 <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mt-12 mb-12">
                     Projects
                 </h1>
@@ -67,9 +67,9 @@ function projects() {
 
                                 <div className="relative bg-white pt-3">
                                 <p className="mt-2">
-                                        <span className="tracking-wider text-gray-900">Shop.Co E-Commerce Platform</span>
+                                        <span className="tracking-wider text-gray-900 group-hover:underline group-hover:underline-offset-4">Shop.Co E-Commerce Platform</span>
                                     </p>
-                                    <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                                    <h3 className="text-xs text-gray-700">
                                     An e-commerce clothing shop is built using HTML, CSS, and JavaScript for structure, styling, and interactivity. PHP handles server-side logic, while MySQL stores user, product, and order data. Users can register, browse clothes, add items to a cart, and place orders. Admins manage products and view orders through a secure backend.
                                     </h3>
                                 </div>
