@@ -7,8 +7,8 @@ import Logo from '../images/Sudharaka-logo.png'
 
 const navigation = [
   { name: 'Home ', href: '/' },
-  { name: 'About', href: '#' },
-  { name: 'Projects', href: '#' },
+  { name: 'About', href: '#about' },
+  { name: 'Projects', href: '#projects' },
   { name: 'Contact', href: '/contact' },
 ]
 
@@ -20,8 +20,8 @@ export default function Example() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+            <a href="/" className="-m-1.5 p-1.5">
+              <span className="sr-only">Sudharaka</span>
               <img
                 alt=""
                 src={Logo}
@@ -51,7 +51,7 @@ export default function Example() {
               className="inline-flex items-center gap-2 rounded-lg border border-blue-600 bg-blue-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:ring-3 focus:outline-hidden"
               href="/contact"
             >
-              <span className="text-sm font-medium"> Get Started </span>
+              <span className="text-sm  font-medium"> Get Started </span>
 
               
             </a>
@@ -65,7 +65,7 @@ export default function Example() {
                 <span className="sr-only">Your Company</span>
                 <img
                   alt=""
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                  src={Logo}
                   className="h-8 w-auto"
                 />
               </a>

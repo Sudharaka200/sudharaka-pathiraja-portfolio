@@ -16,10 +16,18 @@ function footer() {
                             </div>
                             <br /><br />
                             <div class="flex gap-4 hover:cursor-pointer">
-                                <img src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
-                                <img src="https://www.svgrepo.com/show/94698/github.svg" class="" width="30" height="30" alt="gt" />
-                                <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30" alt="fb" />
-                                <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
+                                <a href="https://www.linkedin.com/in/sudharaka-pathiraja-10646820b/">
+                                    <img src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
+                                </a>
+                                <a href="https://github.com/Sudharaka200">
+                                    <img src="https://www.svgrepo.com/show/94698/github.svg" class="" width="30" height="30" alt="gt" />
+                                </a>
+                                <a href="https://web.facebook.com/sudha.raka.75/">
+                                    <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30" alt="fb" />
+                                </a>
+                                <a href="https://www.instagram.com/__su.zx/">
+                                    <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
+                                </a>
                             </div>
                         </div>
 
@@ -27,11 +35,16 @@ function footer() {
                             <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
 
                             <div class="flex flex-col items-start mt-5 space-y-2">
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Home</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">About</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Projects</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Contact</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Get Started</p>
+                                <a href="#home">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Home</p></a>
+                                <a href="#about">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">About</p></a>
+                                <a href="#projects">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Projects</p></a>
+                                <a href="/contact">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Contact</p></a>
+                                <a href="/contact">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Get Started</p></a>
                             </div>
                         </div>
 
@@ -39,12 +52,24 @@ function footer() {
                             <p class="font-semibold text-gray-800 dark:text-white">Services</p>
 
                             <div class="flex flex-col items-start mt-5 space-y-2">
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Custom Software Development</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Mobile & Web App Development</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">System Integration & API Development</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">AI & Machine Learning Solutions</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Database Design & Management</p>
-                                <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">UI/UX Focused Solutions</p>
+                                <a href="#whatIDo">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Custom Software Development</p>
+                                </a>
+                                <a href="#whatIDo">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Mobile & Web App Development</p>
+                                </a>
+                                <a href="#whatIDo">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">System Integration & API Development</p>
+                                </a>
+                                <a href="#whatIDo">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">AI & Machine Learning Solutions</p>
+                                </a>
+                                <a href="#whatIDo">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Database Design & Management</p>
+                                </a>
+                                <a href="#whatIDo">
+                                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">UI/UX Focused Solutions</p>
+                                </a>
 
                             </div>
                         </div>

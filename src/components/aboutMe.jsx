@@ -3,8 +3,8 @@ import AboutImg from '../images/Group 1000006193.png'
 
 function AboutMe() {
     return (
-        <div>
-            <section className="bg-white pb-20">
+        <div >
+            <section className="bg-white pb-20" id='about'>
                 <div className="mx-auto w-screen max-w-screen-xl px-4 sm:px-6 grid md:grid-cols-[20%_80%] md:items-center md:gap-4 lg:px-8 ">
                     <img src={AboutImg} alt="About Me" className="w-100 h-auto" />
 
