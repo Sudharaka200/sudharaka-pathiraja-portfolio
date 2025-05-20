@@ -9,7 +9,7 @@ function AboutMe() {
                     <img src={AboutImg} alt="About Me" className="w-100 h-auto" />
 
                     <div className="">
-                        <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
+                        <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl mt-10 lg:mt-0">
                             About Me
                         </h1>
                         <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed">

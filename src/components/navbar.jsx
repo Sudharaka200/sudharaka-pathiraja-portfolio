@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../images/Sudharaka-logo.png'
+import { Link } from 'react-router-dom'
 
 const navigation = [
   { name: 'Home ', href: '/' },
@@ -40,11 +41,25 @@ export default function Example() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
-                {item.name}
-              </a>
-            ))}
+            {navigation.map((item) =>
+              item.href.startsWith('#') ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-sm/6 font-semibold text-gray-900"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="text-sm/6 font-semibold text-gray-900"
+                >
+                  {item.name}
+                </Link>
+              )
+            )}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
@@ -52,8 +67,6 @@ export default function Example() {
               href="/contact"
             >
               <span className="text-sm  font-medium"> Get Started </span>
-
-              
             </a>
           </div>
         </nav>
