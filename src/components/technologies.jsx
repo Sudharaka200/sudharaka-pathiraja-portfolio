@@ -16,11 +16,11 @@ function technologies() {
             <div className="container mx-auto text-center">
                 <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-12">Technologies</h2>
                 <div className="flex flex-wrap justify-center gap-10">
-                    <img src={Java} alt="Java"  className='w-100 h-100 h-100'/>
+                    <img src={Java} alt="Java"  className='w-100 h-100'/>
                     <img src={Python} alt="Python" className='w-100 h-100' />
                     <img src={JS} alt="JavaScript"  className='w-100 h-100'/>
                     <img src={ReactJs} alt="React"  className='w-100 h-100'/>
-                    <img src={Tailwind} alt="Tailwind CSS"  className='w-100 h-100'/>
+                    <img src={Tailwind} alt="Tailwind CSS"  className='w-auto h-auto'/>
                     <img src={SpringBoot} alt="Spring Boot"  className='w-100 h-100'/>
                     <img src={Laravel} alt="Laravel"  className='w-100 h-100'/>
                     <img src={MySql} alt="MySQL"  className='w-100 h-100'/>
