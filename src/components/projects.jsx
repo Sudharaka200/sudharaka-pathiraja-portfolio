@@ -21,7 +21,7 @@ function projects() {
 
                     <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                         <li>
-                            <a href="#" className="group block overflow-hidden">
+                            <a href="https://github.com/Sudharaka200/Apple-verse-app" className="group block overflow-hidden">
                                 <img
                                     src={Project1}
                                     alt=""
@@ -51,7 +51,7 @@ function projects() {
                         </li>
 
                         <li>
-                            <a href="#" className="group block overflow-hidden">
+                            <a href="https://github.com/Sudharaka200/wheel-deal-mobile-app" className="group block overflow-hidden">
                                 <img
                                     src={Projrct2}
                                     alt=""
@@ -85,7 +85,7 @@ function projects() {
                         </li>
 
                         <li>
-                            <a href="#" className="group block overflow-hidden">
+                            <a href="https://github.com/Sudharaka200/shop.co-clothing-website" className="group block overflow-hidden">
                                 <img
                                     src={Project3}
                                     alt=""
