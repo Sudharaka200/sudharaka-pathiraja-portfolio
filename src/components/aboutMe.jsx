@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutImg from '../images/Group 1000006193.png'
 import { motion } from 'framer-motion';
-import {fadeIn, fadeDown, zoomIn, flipInX, fadeInLeft, fadeInRight} from '../../variants' 
+import { fadeDown, zoomIn, flipInX,} from '../../variants' 
 
 function AboutMe() {
     return (
@@ -17,7 +17,7 @@ function AboutMe() {
 
                     <div className="">
                         <motion.h1 
-                            variants={fadeDown(0.2)} 
+                            variants={fadeDown(0.5)} 
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}

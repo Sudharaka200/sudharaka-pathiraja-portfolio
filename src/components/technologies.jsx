@@ -8,13 +8,20 @@ import SpringBoot from '../images/spring-boot-logo-removebg-preview 1.png'
 import Laravel from '../images/laravel-icon-249x256-kqpwzrwi 1.png'
 import MySql from '../images/Vector.png'
 import FireBase from '../images/🦆 icon _file type firebase_.png'
+import { motion } from 'framer-motion';
+import { fadeDown } from '../../variants' 
 
 function technologies() {
   return (
     <div>
       <section className="bg-gray-100 py-20 ">
             <div className="container mx-auto text-center">
-                <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-12">Technologies</h2>
+                <motion.h2 
+                    variants={fadeDown(0.4)} 
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-12">Technologies</motion.h2>
                 <div className="flex flex-wrap justify-center gap-10">
                     <img src={Java} alt="Java"  className='w-100 h-100'/>
                     <img src={Python} alt="Python" className='w-100 h-100' />
