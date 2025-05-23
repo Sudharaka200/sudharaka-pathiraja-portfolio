@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion';
+import {fadeIn, fadeDown, zoomIn, flipInX, fadeInLeft, fadeInRight} from '../../variants' 
 
 // import DoImg from '../images/image 19.png'
 
@@ -7,9 +9,14 @@ function whatDo() {
         <div>
             {/* First Section */}
             <section className="bg-white" id='whatIDo' >
-                <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-12">
+                <motion.h1 
+                    variants={flipInX(0.2)} 
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+                className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-12">
                     What I Do
-                </h1>
+                </motion.h1>
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 gap-1 mb-1 lg:grid-cols-2 ">
                         <div className="bg-gradient-to-r from-white to-[#F3F6FA] py-10 pl-2 transform transition-transform duration-500 hover:scale-105">
