@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import {fadeIn, fadeDown, zoomIn, flipInX, fadeInLeft, fadeInRight} from '../../variants' 
+import { fadeDown, zoomIn, flipInX } from '../../variants' 
 
 const CV_pdf_url = 'https://drive.google.com/uc?export=download&id=10cM7mdzrGCGBjPQeSVsJBHn_Amye-9bb';
 
@@ -19,13 +19,13 @@ function homeBanner() {
                 <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
                     <div className="max-w-prose text-left">
                         <motion.p 
-                            variants={fadeDown(0.2)} 
+                            variants={fadeDown(0.5)} 
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
                         className="sm:text-orange-500 text-gray-900 text-sm mt-20 lg:mt-0">HELLO</motion.p>
                         <motion.h1
-                            variants={fadeDown(0.2)} 
+                            variants={fadeDown(0.5)} 
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
@@ -34,7 +34,7 @@ function homeBanner() {
                         </motion.h1>
 
                         <motion.p
-                            variants={zoomIn(0.2)} 
+                            variants={zoomIn(0.5)} 
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
@@ -43,7 +43,7 @@ function homeBanner() {
                         <div
                         className="mt-4 flex gap-4 sm:mt-6">
                             <motion.a
-                                variants={zoomIn(0.2)} 
+                                variants={zoomIn(0.5)} 
                                 initial="hidden"
                                 whileInView={"show"}
                                 viewport={{ once: false, amount: 0.7 }}
@@ -54,7 +54,7 @@ function homeBanner() {
                             </motion.a>
 
                             <motion.a
-                                variants={zoomIn(0.2)} 
+                                variants={zoomIn(0.5)} 
                                 initial="hidden"
                                 whileInView={"show"}
                                 viewport={{ once: false, amount: 0.7 }}

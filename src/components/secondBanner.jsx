@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import {fadeIn, fadeDown, zoomIn, flipInX, fadeInLeft, fadeInRight} from '../../variants' 
+import { fadeDown, zoomIn } from '../../variants' 
 
 function secondBanner() {
     return (
