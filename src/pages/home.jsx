@@ -8,6 +8,7 @@ import Technologies from '../components/technologies'
 import Projects from '../components/projects'
 import ThirdBanner from '../components/thirdBanner'
 import Footer from '../components/footer'
+import Education from '../components/education'
 
 
 export default function home() {
@@ -17,6 +18,7 @@ export default function home() {
       <HomeBanner />
       <SecondBanner />
       <AboutMe />
+      <Education />
       <WhatiDo />
       <Technologies />
       <Projects />

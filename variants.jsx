@@ -50,6 +50,23 @@ export const zoomIn = (delay = 0 , duration = 0.5) => ({
     },
 });
 
+export const fadeInUp = (delay = 0, duration = 0.5) => ({
+  hidden: {
+    opacity: 0,
+    y: 20, // move down initially
+  },
+  show: {
+    opacity: 1,
+    y: 0, // move to original position
+    transition: {
+      delay,
+      duration,
+      ease: "easeOut",
+    },
+  },
+});
+
+
 export const pulse = {
     hidden: {
         scale: 1,
@@ -64,6 +81,23 @@ export const pulse = {
         },
     },
 };
+
+export const fadeInUpBig = (delay = 0, duration = 0.7) => ({
+  hidden: {
+    opacity: 0,
+    y: 200, // starts further down
+  },
+  show: {
+    opacity: 1,
+    y: 0, // animates to natural position
+    transition: {
+      delay,
+      duration,
+      ease: "easeOut",
+    },
+  },
+});
+
 
 export const flipInX = (delay = 0, duration = 0.5) => ({
     hidden: {
