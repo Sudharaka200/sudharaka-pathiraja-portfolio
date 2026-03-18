@@ -1,0 +1,13 @@
+{
+  "name": "Sudharaka Pathiraja — Portfolio",
+  "short_name": "Sudharaka",
+  "description": "Associate Software Engineer | Full-Stack Development | Sri Lanka",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06070f",
+  "theme_color": "#06070f",
+  "icons": [
+    { "src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
